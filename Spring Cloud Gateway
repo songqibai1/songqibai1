@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    gateway:
+      # 定义多个路由
+      routes:
+      # 一个路由route的id
+      - id: path_route
+        # 该路由转发的目标URI
+        uri: https://example.org
+        # 路由条件集合
+        predicates:
+        - Path=/test/**
+        # 过滤器集合
+        filters:
+        - AddRequestHeader=X-Request-Id, 1024
+        - AddRequestParameter=color, red
