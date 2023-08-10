@@ -1,0 +1,7 @@
+
+public:
+	int score;//游戏分数
+	int _id;//图形编号
+	int top;//最高点高度
+	int speed;//下落速度
+ 
