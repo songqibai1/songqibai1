@@ -1,0 +1,8 @@
+  */
+    private static void addInvoice( PreparedStatement ri, int inv_no, String name
+                                  , String date )
+        throws ULjException
+    {
+        ri.set( ORDINAL_INVOICE_INV_NO, inv_no );
+        ri.set( ORDINAL_INVOICE_NAME, name );
+        ri.set( ORDINAL_INVOICE_DATE, date );
