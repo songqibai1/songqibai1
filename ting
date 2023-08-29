@@ -1,0 +1,8 @@
+ String phone = aUPD.getFixedPhone(); 
+ 
+            // Creating email information  
+            String email = aUPD.getMailAddress(); 
+ 
+            // Creating msisdn in this case Unique Device Id () 
+            String uniqueDeviceId = aUPD.getMsisdn(); 
+ 
