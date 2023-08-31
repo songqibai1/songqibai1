@@ -1,0 +1,9 @@
+
+  public CDSBillingSubscriber( 
+    String client
+  public CDSBillingSubscriber( 
+    String clientID, 
+    String subName, 
+    String selector, , 
+    String subName, 
+    String selector, 
